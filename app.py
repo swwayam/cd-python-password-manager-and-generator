@@ -23,13 +23,14 @@ def generate_password(length):
     # TODO: Return the generated password
 
 # Generate the key file if it doesn't exist
-try:
-    load_key()
-except FileNotFoundError:
-    write_key()
+"""After writing load_key() Uncomment below to pass the tests"""
+# try:
+#     load_key()
+# except FileNotFoundError:
+#     write_key()
 
-key = load_key()
-fer = Fernet(key)
+# key = load_key()
+# fer = Fernet(key)
 
 
 
@@ -58,9 +59,9 @@ def add():
     # TODO: Close the file
 
 """Main program loop."""
-while True:
-    # TODO: Prompt the user to choose an action (view, add, quit)
-    # TODO: If the user chooses "view", call the view() function
-    # TODO: If the user chooses "add", call the add() function
-    # TODO: If the user chooses "quit", break the loop and exit the program
-    # TODO: If the user enters an invalid choice, display an error message and continue the loop
+# while True:
+#     # TODO: Prompt the user to choose an action (view, add, quit)
+#     # TODO: If the user chooses "view", call the view() function
+#     # TODO: If the user chooses "add", call the add() function
+#     # TODO: If the user chooses "quit", break the loop and exit the program
+#     # TODO: If the user enters an invalid choice, display an error message and continue the loop
