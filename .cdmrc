@@ -1,0 +1,3 @@
+tabs: ['app.py', "passwords.txt"]
+run-button: python3 app.py
+playground-view: terminal-editor
